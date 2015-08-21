@@ -30,4 +30,4 @@ CuitValidator.valid?('20-11111111-2') # boolean
 
 ## Thread safety
 
-This gem is thread safe, with one caveat: `EmailValidator.default_options` must be configured before use in a multi-threaded environment. If you configure `default_options` in a Rails initializer file, then you're good to go since initializers are run before worker threads are spawned.
+This gem is thread safe, with one caveat: `CuitValidator.default_options` must be configured before use in a multi-threaded environment. If you configure `default_options` in a Rails initializer file, then you're good to go since initializers are run before worker threads are spawned.
