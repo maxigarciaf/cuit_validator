@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = ["magf.1987@gmail.com"]
   s.homepage    = %q{https://github.com/maxigarciaf/cuit_validator}
   s.summary     = "A cuit validator for Ruby and Rails >= 3"
-  s.description = "TODO: Description of CuitValidator."
+  s.description = "Allows validate CUIT and CUIL in Ruby applications"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
